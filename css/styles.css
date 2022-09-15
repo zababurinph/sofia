@@ -1,0 +1,104 @@
+:root {
+    --border-radius: 0px;
+    --background-color: #fbf4e7;
+    --color: #555555;
+}
+
+@font-face {
+    font-family: 'Vezitsa';
+    src: url(/fonts/Vezitsa.ttf) format('truetype');
+}
+
+html, body {
+    text-align: left;
+    margin: 0;
+    transition: all 0.2s;
+    position: relative;
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+h1, h2 {
+    font-family: Vezitsa, Arial, sans-serif;
+}
+
+.body {
+    margin: 20px;
+}
+
+.lessons {
+    margin-left: 50px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color);
+    padding: 10px;
+    display: block;
+    width: 150px;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+a:hover {
+    background-color: var(--color);
+    color: var(--background-color);
+}
+
+li {
+    padding: 3px 0;
+}
+
+p {
+    text-align: center;
+    line-height: 25px;
+}
+
+input {
+    text-align: center;
+    height: 36px;
+    outline: none;
+    border-radius: var(--border-radius);
+}
+
+.btn {
+    height: 20px;
+    width: 100px;
+    min-width: 100px;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    transition: all 0.2s;
+    margin: 5px;
+    padding: 10px 20px;
+    line-height: 20px;
+    background-color: var(--background-color);
+    color: var(--color);
+    border: 1px solid black;
+}
+
+.btn_big {
+    width: 150px;
+}
+
+.btn_mini {
+    width: 10px;
+    padding-inline: 15px;
+    min-width: unset;
+}
+
+.btn:hover {
+    background-color: var(--color);
+    color: var(--background-color);
+}
+
+.not-active {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+}
+
