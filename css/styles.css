@@ -5,12 +5,20 @@
 }
 
 @font-face {
-    font-family: 'Vezitsa';
-    src: url("../fonts/Vezitsa.ttf") format('truetype');
+    /*font-family: 'Vezitsa';*/
+    /*src: url("../fonts/Vezitsa.ttf") format('truetype');*/
+    font-family: 'Monomakh Unicode TT';
+    src: url('../fonts/MonomakhUnicodeTT.eot');
+    src: local('Monomakh Unicode TT Medium'), local('MonomakhUnicodeTT'),
+    url('../fonts/MonomakhUnicodeTT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MonomakhUnicodeTT.woff') format('woff'),
+    url('../fonts/MonomakhUnicodeTT.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 h1, h2 {
-    font-family: Vezitsa;
+    font-family: "Monomakh Unicode TT";
 }
 
 html, body {
