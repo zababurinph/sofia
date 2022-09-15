@@ -96,6 +96,17 @@ input {
     justify-content: center;
 }
 
+.audio {
+    margin-left: 40px;
+}
+
+.audio div {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin: 10px 20px;
+}
+
 @media (max-width: 980px) {
     html, body {
         font-size: 1.5em;
