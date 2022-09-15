@@ -6,7 +6,11 @@
 
 @font-face {
     font-family: 'Vezitsa';
-    src: url(/fonts/Vezitsa.ttf) format('truetype');
+    src: url("../fonts/Vezitsa.ttf") format('truetype');
+}
+
+h1, h2 {
+    font-family: Vezitsa;
 }
 
 html, body {
@@ -18,9 +22,7 @@ html, body {
     color: var(--color);
 }
 
-h1, h2 {
-    font-family: Vezitsa, Arial, sans-serif;
-}
+
 
 .body {
     margin: 20px;
