@@ -7,6 +7,8 @@
     background-color: #f4e5c9;
     width: 100vw;
     overflow-x: scroll;
+    position: relative;
+    top: -4px;
 }
 
 .btnMenu {
@@ -14,10 +16,16 @@
     border-radius: var(--border-radius);
     color: var(--color);
     transition: all 0.2s;
-    width: 4em;
+    width: 6em;
 }
 
 .btnMenu:hover {
     background-color: var(--color);
     color: var(--background-color);
+}
+
+@media (max-width: 980px) {
+    .navbar {
+        top: -10px;
+    }
 }
