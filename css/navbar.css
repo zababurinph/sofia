@@ -16,7 +16,7 @@
     color: var(--color);
     transition: all 0.2s;
     width: 6em;
-    font-family: "Monomakh Unicode TT";
+    font-family: "Monomakh Unicode TT", serif;
 }
 
 .btnMenu:hover {
