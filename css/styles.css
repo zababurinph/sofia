@@ -100,6 +100,10 @@ input {
     justify-content: center;
 }
 
+audio {
+    width: 400px;
+}
+
 .audio {
     margin-left: 40px;
 }
@@ -107,6 +111,7 @@ input {
 .audio_div {
     display: flex;
     align-items: center;
+    justify-content: left;
     font-size: 1.1em;
     margin: 10px 20px;
 }
