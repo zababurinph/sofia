@@ -61,6 +61,12 @@ a:hover {
     color: var(--background-color);
 }
 
+.a_a {
+    padding: 0 10px;
+    width: unset;
+    font-size: 1em;
+}
+
 button {
     border: none;
     border-radius: var(--border-radius);
