@@ -42,7 +42,7 @@ html, body {
 
 .lessons {
     margin: 0 0 50px 50px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 a {
@@ -65,6 +65,11 @@ a:hover {
     padding: 0 10px;
     width: unset;
     font-size: 1em;
+}
+
+.div_a {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button {
@@ -125,6 +130,7 @@ audio {
 
 .texts {
     text-align: center;
+    text-indent: 1.5em;
 }
 
 .left {
@@ -153,5 +159,13 @@ audio {
 
     #a_audio {
         margin: 0 auto;
+    }
+
+    .texts div {
+        text-align: justify;
+    }
+
+    .div_a {
+        font-size: 1.1em;
     }
 }
