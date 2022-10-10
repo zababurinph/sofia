@@ -23,7 +23,7 @@ h1 {
     margin: 20px 0;
 }
 
-h2 {
+h2[i] {
     margin-left: 40px;
 }
 
