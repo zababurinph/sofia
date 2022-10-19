@@ -20,11 +20,19 @@ h1, h2 {
 }
 
 h1 {
-    margin: 20px 0;
+    padding: 20px 0;
+    margin: 0;
 }
 
-.h2_index {
-    margin-left: 40px;
+.h1_index {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+.h1_index:hover {
+    background: #f4e5c9;
 }
 
 html, body {
@@ -150,6 +158,10 @@ audio {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.d_none {
+    display: none;
 }
 
 @media (max-width: 980px) {

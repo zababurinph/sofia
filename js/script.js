@@ -1,4 +1,3 @@
-function changePage(idOld, idNew) {
-    document.getElementById(idOld).style.display = 'none'
-    document.getElementById(idNew).style.display = 'block'
+function deploy(id) {
+    document.getElementById(id).classList.toggle("d_none")
 }
