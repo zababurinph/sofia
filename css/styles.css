@@ -50,7 +50,7 @@ html, body {
 
 .lessons {
     margin: 0 0 50px 50px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 a {
@@ -72,12 +72,13 @@ a:hover {
 .a_a {
     padding: 0 10px;
     width: unset;
-    font-size: 1em;
+    /*font-size: 1em;*/
 }
 
 .div_a {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
 }
 
 button {
@@ -100,7 +101,7 @@ button:hover {
 }
 
 li {
-    padding: 3px 0;
+    padding: 3px 10px;
 }
 
 p {
